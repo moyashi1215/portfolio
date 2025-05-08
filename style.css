@@ -1,0 +1,73 @@
+/* style.css */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #d8efff;
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; /*四角の角を丸くする*/ 
+}
+
+header {
+    display: flex;/*子要素を効率的に配置*/ 
+    align-items: center;/*縦方向の配置を調整*/ 
+    border-bottom: 2px dotted #bbb;/*点線*/
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    background-color: #c8e9ff;
+    background-image: url("image0.jpeg");
+    background-size: cover;/*背景画像を要素全体に覆うように表示する*/ 
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #5f5f5f;
+}
+
+.profile-info h2 {
+    background-color: #c8e9ff;
+    color: #5f5f5f;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+section h3 {
+    font-size: 1.5em;
+    color: #c8e9ff;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted #bbb;/*点線*/
+    padding-bottom: 5px;
+}
+
+.skills ul, .career ul {
+    list-style: none;/*点なくす*/
+    padding: 0;/*内側の余白なし*/
+}
+
+.skills ul li, .career ul li {
+    margin-bottom: 5px;
+}
+
+.pr p {
+    background-color: #c8e9ff;/*PRのところだけ色付け*/
+    padding: 10px;/*内側の余白*/
+    border-radius: 5px;/*四角の角を丸くする*/
+}
