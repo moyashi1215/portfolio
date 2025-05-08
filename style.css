@@ -1,0 +1,91 @@
+.header {
+  display: flex;/* 横並びのレイアウト */
+  justify-content: space-between;/* 左右にロゴとメニューを分ける */
+  align-items: center;/* 高さを揃える*/
+  background-color: #555454; /* 背景色 */
+  color: white; /* 文字色 */
+  padding: 20px 40px;/* 上下に20、左右に40px余白を作成 */
+}
+
+.header-logo {
+  font-size: 50px;
+  font-weight: bold;/* 文字の太さを変更*/
+  font-family:Palatino Linotype;
+}
+
+.header-list ul {
+  display: flex;/* 横並びのレイアウト */
+  list-style: none; /* ポイント：リストの・を消す */
+  font-size: 50px;
+  margin: 0px;
+  padding: 20px 40px;/* 上下に20、左右に40px余白を作成 */
+}
+
+.header-list li {
+  margin-left: 20px;
+  font-family:游ゴシック;
+  cursor: pointer;/* マウスのカーソルを変更する。指マーク。 */
+}
+
+
+.fujisan{
+  width: 100%;
+  height: auto; /* 縦横比保つため */
+}
+
+body {
+    background-color: #ffffff;
+  }
+
+  .INTRODUCTION{
+    color:#ffffff;
+    background-color:#555454;
+    width: 1100px;
+    height: 130px; 
+    font-family:游ゴシック;
+    font-weight: 100;/* 文字の太さを変更*/
+    font-size:50px;
+    padding: 0px 20px;/* 上下に0、左右に20px余白を作成 */
+    align-items: center;/* 高さを揃える*/
+  }
+
+  .name{
+    font-family:游ゴシック;
+    font-size:40px;
+  }
+
+  .profile{
+    width: 600px;
+    height: auto; /* 縦横比保つため */
+  }
+
+  .camp_style_coleman{
+    color:#ffffff;
+    background-color:#555454;
+    width: 1100px;
+    height: 130px;
+    font-family:游ゴシック;
+    font-weight: 100;/* 文字の太さを変更*/
+    font-size:50px;
+    padding: 0px 20px;/* 上下に0、左右に20px余白を作成 */
+    align-items: center;/* 高さを揃える*/
+  }
+  
+  .coleman{
+    width: 2000px;
+    height: auto; /* 縦横比保つため */
+  }
+
+  .coleman_introduction{
+    font-family:游ゴシック;
+    font-size:40px;
+  }
+
+  .snow_peak{
+    width: 2000px;
+    height: auto; /* 縦横比保つため */
+  }
+  .snow_peak_introduction{
+    font-family:游ゴシック;
+    font-size:40px;
+  }
