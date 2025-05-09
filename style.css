@@ -34,23 +34,32 @@
 }
 
 body {
-    background-color: #ffffff;
+    font-family:游ゴシック;
+    background-color: #afafaf;
+    margin: 10;
+    padding: 30;
+    border-radius: 10px; /*四角の角を丸くする*/ 
   }
 
+  .container {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px; /*四角の角を丸くする*/ 
+  }
   .INTRODUCTION{
-    color:#ffffff;
-    background-color:#555454;
+    color:#000000;
     width: 1100px;
     height: 130px; 
-    font-family:游ゴシック;
+    border-bottom: 5px dotted #bbb;/*点線*/
     font-weight: 100;/* 文字の太さを変更*/
     font-size:50px;
-    padding: 0px 20px;/* 上下に0、左右に20px余白を作成 */
+    padding: 0px 50px;/* 上下に0、左右に20px余白を作成 */
     align-items: center;/* 高さを揃える*/
   }
 
   .name{
-    font-family:游ゴシック;
     font-size:40px;
   }
 
@@ -60,14 +69,13 @@ body {
   }
 
   .camp_style_coleman{
-    color:#ffffff;
-    background-color:#555454;
+    color:#000000;
     width: 1100px;
     height: 130px;
-    font-family:游ゴシック;
+    border-bottom: 5px dotted #bbb;/*点線*/
     font-weight: 100;/* 文字の太さを変更*/
     font-size:50px;
-    padding: 0px 20px;/* 上下に0、左右に20px余白を作成 */
+    padding: 0px 50px;/* 上下に0、左右に20px余白を作成 */
     align-items: center;/* 高さを揃える*/
   }
   
@@ -77,7 +85,6 @@ body {
   }
 
   .coleman_introduction{
-    font-family:游ゴシック;
     font-size:40px;
   }
 
